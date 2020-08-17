@@ -6,6 +6,8 @@
 body {
   background: #2c2141;
   color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,18 +17,45 @@ body {
 
 .hero {
   display: block;
+  position: relative;
+  box-sizing: border-box;
   background-color: #f8f8f8;
+  border-radius: 16px;
   width: 624px;
   max-height: 320px;
+  padding: 32px;
 
   &__photo {
     display: inline-block;
-    max-width: 148px;
-    max-height: 148px;
+    box-sizing: border-box;
+    margin: 0 32px 140px 0;
+    border: 5px solid #d4d4d4;
+    width: 148px;
+    height: 148px;
     border-radius: 50%;
   }
   &__section {
     display: inline-block;
+    position: absolute;
+    top: 0px;
+    box-sizing: border-box;
+    margin: auto;
     max-width: 400px;
   }
+  &__title {
+
+  }
+  &__subtitle {
+
+  }
+  &__description {
+
+    &--links {
+      color: yellow;
+    }
+  }
+  &__web-icon {
+    
+  }
+  
 }
