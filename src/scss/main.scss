@@ -37,25 +37,38 @@ body {
   &__section {
     display: inline-block;
     position: absolute;
-    top: 0px;
     box-sizing: border-box;
     margin: auto;
     max-width: 400px;
   }
   &__title {
-
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+    
   }
   &__subtitle {
-
+    margin: 0;
+    font-size: 18px;
+    color: gray;
+    font-style: italic;
   }
   &__description {
+    font-size: 16px;
+    line-height: 1.5;
+
+    &--special {
+      color: #b18e2e;
+    }
 
     &--links {
-      color: yellow;
+      margin: 0;
+      font-weight: bolder;
+      display: inline-block;
     }
   }
   &__web-icon {
-    
+    display: inline-block;
   }
   
 }
